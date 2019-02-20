@@ -93,9 +93,6 @@ body {
   text-align: center;
 }
 
-.appear {
-  opacity: 0.3;
-}
 .section-heading,
 .section-description {
   margin-bottom: 1.2rem;
@@ -599,9 +596,5 @@ video {
 @media (min-width: 1200px) {
   .values {
     padding: 40rem 0 3rem;
-  }
-  .special-row {
-    display: grid;
-    grid-template-columns: auto auto auto;
   }
 }
