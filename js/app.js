@@ -93,7 +93,7 @@ function myFunction() {
     }
     else {
       boxes.forEach(box => {
-        box.style.opacity = 0.95;
+        box.style.opacity = 1;
       });
     }
 }
@@ -162,4 +162,5 @@ window.onload = () => {
   changeActiveFields();
   var preloader = document.querySelector(".preloader");
   preloader.style.animation = "fadeOut 1s ease forwards"
+  preloader.style.zIndex = -20;
 }
