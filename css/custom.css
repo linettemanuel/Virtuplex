@@ -124,7 +124,6 @@ body {
 }
 .chocolate-paragraph-area {
   margin-left: 10rem;
-  width: 150%;
 }
 
 .chocolate-paragraph ul {
@@ -360,6 +359,10 @@ video {
   margin-left: -6rem;
 }
 
+.vr-title {
+  width: 125vw;
+}
+
 @-webkit-keyframes gradient-move {
   0% { background-position: 0 0; }
   100% {  background-position: 700px 0; }
@@ -368,6 +371,13 @@ video {
 @keyframes gradient-move {
   0% { background-position: 0 0; }
   100% { background-position: 700px 0; }
+}
+
+/* Bigger than 400 */
+@media (min-width: 400px) {
+  .vr-title {
+    width: 115vw;
+  }
 }
 
 /* Bigger than 550 */
@@ -410,6 +420,12 @@ video {
     width: 70vw;
     text-transform:none;
     transform: translate(0%, 50%);
+  }
+  .chocolate-paragraph-area {
+    width: 150%;
+  }
+  .vr-title {
+    width: 97vw;
   }
 }
 
