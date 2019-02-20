@@ -1,14 +1,13 @@
-body {
-  margin: 0;
-
-}
-
 html {
   top: 0;
   left: 0
   position:fixed;
   overflow: hidden;
   overflow-y: auto;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Shared
@@ -341,19 +340,19 @@ video {
 
 
 .box {
-  -webkit-text-fill-color: transparent;
+  display: inline-block;
   background: -webkit-linear-gradient(left, #358cc8  0%, #a3007f 33%, #358cc8 66%, #00267f 100%);
+  background-image: linear-gradient(left, #358cc8  0%, #a3007f 33%, #358cc8 66%, #00267f 100%);
   background-size: 700px;
   background-repeat: repeat;
   -webkit-background-clip: text;
-  text-fill-color: transparent;
+  -webkit-mask-image: linear-gradient(blue, green);
   background-clip: text;
+  -webkit-text-fill-color: rgba(0,0,0,0.0001);
+  text-fill-color: rgba(0,0,0,0.0001);
   -webkit-animation: gradient-move 5s linear infinite;
   animation: gradient-move 5s linear infinite;
-}
-
-.box h1:hover {
-  -webkit-animation: gradient-move 5s linear infinite;
+  z-index: 500;
 }
 
 .special-row {
