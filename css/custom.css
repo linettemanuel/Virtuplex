@@ -27,8 +27,9 @@ body {
   position: absolute;
   top: 50vh;
   margin-top: 6.5rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
+
 
 .loader-frame {
   width: 70px;
@@ -36,7 +37,7 @@ body {
   margin: auto;
   position: absolute;
   top: 44%;
-  right: 47%;
+  right: 40%;
 }
 
 .loader1, .loader2 {
@@ -495,6 +496,21 @@ video {
   }
   .vr-title {
     width: 97vw;
+  }
+  .loader-frame {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    top: 44%;
+    right: 47%;
+  }
+  .logo-loader {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    margin-top: 6.5rem;
+    margin-left: 2rem;
   }
 }
 
