@@ -2,6 +2,7 @@ var menu = document.querySelector(".nav");
 var menuSections =  document.querySelectorAll(".menu-section");
 var circles = document.querySelectorAll(".number");
 
+
 function initComparisons() {
   var x, i;
   /* Find all elements with an "overlay" class: */
@@ -159,4 +160,6 @@ window.onload = () => {
   initComparisons();
   myFunction();
   changeActiveFields();
+  var preloader = document.querySelector(".preloader");
+  preloader.style.animation = "fadeOut 1s ease forwards"
 }
